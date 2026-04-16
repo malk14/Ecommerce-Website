@@ -1,0 +1,42 @@
+.header .top-bar .bar-home option{
+    color: #666;
+}
+
+.header .navbar .collapse .navbar-nav .nav-item{
+    transition: all .3s ease-in-out;
+}
+
+.header .navbar .collapse .icon-header .fa-magnifying-glass{
+    transition: all .2s ease-in;
+}
+
+.header .navbar .collapse .navbar-nav .nav-item:hover a{
+    color: var(--primary-color);
+}
+
+.header .navbar .collapse .icon-header i{
+    color: var(--black-color);
+    font-size: 20px;
+    position: relative;
+}
+
+.header .navbar .collapse .icon-header .fa-magnifying-glass:hover{
+    color: var(--primary-color);
+}
+
+.header .navbar .collapse .icon-header .fa-gear:hover{
+    color: var(--primary-color);
+}
+
+.header .navbar .collapse .icon-header .fa-user:hover{
+    color: var(--primary-color);
+}
+
+.header .navbar .collapse .icon-header span {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 2px 10px;
+    position: absolute;
+    top: 8px;
+    right: 36px;
+}

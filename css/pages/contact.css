@@ -1,0 +1,41 @@
+.contact .icon-con span{
+    color: var(--black-3-color);
+}
+
+.contact .icon-con i{
+    color: var(--black-4-color);
+}
+
+.contact .icon-con .span-con:hover{
+    color: var(--primary-color);
+}
+
+.contact .header-con h3{
+    color: var(--black-3-color);
+}
+
+.contact .body-con{
+    padding-left: 90px;
+}
+
+.contact .body-con .form-control {
+    width: 50%;
+}
+
+.contact .body-con .selection{
+    padding-right: 70px;
+}
+
+.contact .body-con select{
+    background-color: #ebebeb;
+    color: #acaaa6;
+}
+
+.contact .body-con button{
+    background-color: #333b48;
+    color: var(--white-color);
+}
+
+.contact .body-con button:hover{
+    background-color: var(--primary-color);
+}

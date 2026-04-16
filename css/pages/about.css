@@ -1,0 +1,14 @@
+.about .about-1 span a{
+    color: var(--black-color);
+    font-size: var(--font-12);
+    transition: all .3s ;
+}
+
+.about .about-1 .text-about .card-about p ,
+.about .about-1 .text-about .card-about ul{
+    font-size: var(--font-14);
+}
+
+.about .about-1 .about-hover:hover a{
+    color: var(--primary-color);
+}

@@ -1,0 +1,16 @@
+.footer1{
+    background-color: var(--black-2-color);
+}
+
+.footer1 ul li a{
+    color: var(--gray-color);
+    transition: all .1s;
+}
+
+.footer1 ul li a:hover{
+    color: var(--white-color);
+}
+
+.footer2 .img-f2{
+    width: 30%;
+}

@@ -1,0 +1,32 @@
+.shop .shop-product-header .shop-icon .fa-list-ul{
+    color: var(--gray-color);
+    transition: all .2s ease-out;
+}
+
+.shop .shop-product-header .shop-icon .fa-list-ul:hover{
+    color: var(--primary-color);
+}
+
+.shop .shop-product .card .pro-icon{
+    background-color: var(--white-color);
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.shop .shop-product .card .pro-icon i:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.shop .shop-product .card:hover .pro-icon{
+    opacity: 1;
+}
+
+.shop .shop-product .pro-icon i{
+    font-size: var(--font-14);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}

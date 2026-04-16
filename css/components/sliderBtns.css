@@ -1,0 +1,88 @@
+.btn-h2{
+    font-size: var(--font-12);
+    padding: 5px 25px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    transition: all .1s ease-in;
+}
+
+.btn-h2:hover{
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.btn-h4{
+    font-size: var(--font-14);
+    padding: 8px 40px;
+    transition: all .3s ease-in-out;
+}
+
+.btn-h4:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.home4 .card{
+    transition: all .3s ease-in;
+}
+
+.home4 .card .card-img-face{
+    position: relative;
+}
+
+.btn-h4-p2{
+    background-color: var(--white-color);
+    opacity: 0;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 145px;
+    left: 0;
+    right: 0;
+    transition: all .2s ease-in;
+}
+
+.btn-h4-p2:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.card:hover .btn-h4-p2{
+    opacity: 1;
+}
+
+.card h5:hover{
+    color: var(--primary-color);
+}
+
+.home4 .card .card-img{
+    position: relative;
+}
+
+.home4 .card .card-img .card-img-cover{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .3s ease-in;
+}
+
+.card:hover .card-img .card-img-cover{
+    opacity: 1;
+}
+
+.home4 .card .card-body i{
+    font-size: var(--font-14);
+    padding: 12px;
+    opacity: 0;
+}
+
+.card:hover .card-body i{
+    opacity: 1;
+}
+
+.card .card-body i:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}

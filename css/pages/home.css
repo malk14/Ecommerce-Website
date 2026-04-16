@@ -1,0 +1,144 @@
+.home{
+    height: 130vh;
+    background-image: url(../../img/slide-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .text-h1{
+    transform: translateY(90%);
+}
+
+.home .text-h1 .color-green{
+    color: var(--secondary-color);
+    font-size: var(--font-60);
+}
+
+.home .text-h1 .gray-color{
+    color: rgb(171, 171, 171);
+    font-size: var(--font-60);
+}
+
+.home .text-h1 p{
+    color: rgb(119, 119, 119);
+    font-size: var(--font-14);
+}
+
+.home .text-h1 .btn-home{
+    background-color: var(--primary-color);
+    font-size: var(--font-14);
+    padding: 12px 38px;
+    color: var(--white-color);
+    transition: all .1s ease-in;
+}
+
+.home .text-h1 .btn-home:hover{
+    background-color: var(--black-color);
+}
+
+.home2 .text-h2{
+    padding-top: 90px;
+}
+
+.home2 .text-h2 h6{
+    color: var(--third-color);
+    font-size: var(--font-14);
+}
+
+.home2 .text-h2 p{
+    font-size: var(--font-36);
+    padding: 28px 0;
+}
+
+.home4 .title-h4 h2{
+    font-size: var(--font-36);
+}
+
+.home4 .title-h4 p{
+    font-size: var(--font-16);
+}
+
+.home4 .title-h4 .title-img img{
+    width: var(--font-16);
+}
+
+.home4 .card{
+    border: none;
+}
+
+.home4 .card h5{
+    font-size: var(--font-14);
+}
+
+.home4 .card span{
+    font-size: var(--font-16);
+}
+
+.home5 .block{
+    border-width: 2px;
+    padding: 30px 30px 90px 30px;
+    position: relative;
+}
+
+.home5 .block::after{
+    content: "";
+    width: 8%;
+    height: 3px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 27px;
+    top: 73px;
+}
+
+.home5 .card .card-img{
+    width: 18%;
+}
+
+.home5 .card .card-body{
+    width: 55%;
+}
+
+.home5 .card .star{
+    width: 15%;
+}
+
+.home5 .card span {
+    font-size: var(--font-14);
+}
+
+.home5 .img-h5{
+    transition: all .5s ease-in-out;
+}
+
+.home6 .img-h6{
+    padding: 35px 0px 35px 0px;
+}
+
+.home7 .blog h5{
+    font-size: var(--font-16);
+    transition: all .1s ease-in-out;
+}
+
+.home7 .blog h5:hover{
+    color: var(--primary-color);
+}
+
+.home7 .blog .blog-text{
+    background-color: var(--white-color);
+    width: 25%;
+    margin-top: -35px;
+    padding: 32px;
+    position: absolute;
+}
+
+.home7 .blog{
+    height: 465px;
+    overflow: hidden;
+    transition: all .5s ease-in;
+}
+
+.home7 .blog:hover .blog-imge img{
+    transform: scale(1.1);
+}
+
